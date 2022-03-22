@@ -7,12 +7,12 @@
 
 @font-face {
   font-family: font01;
-  src: url("../rockness/Rockness.ttf") format("truetype");
+  src: url("../assets/fonts/rockness/Rockness.ttf") format("truetype");
 }
 
 @font-face {
   font-family: font02;
-  src: url("../nesans/Nesans Semi Bold.ttf") format("truetype");
+  src: url("../assets/fonts/nesans/Nesans Semi Bold.ttf") format("truetype");
 }
 
 body {
