@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: font01;
+  src: url("../rockness/Rockness.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: font02;
+  src: url("../nesans/Nesans Semi Bold.ttf") format("truetype");
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  background-color: #635b58;
+}
+
+header {
+  width: 90%;
+  height: 88%;
+  margin-top: 15px;
+  position: relative;
+  background: -webkit-gradient(linear, left top, right top, from(#270b0b), color-stop(#2b110d), to(#462115));
+  background: linear-gradient(90deg, #270b0b, #2b110d, #462115);
+  -webkit-box-shadow: 0px 0px 10px 5px #1d1313;
+          box-shadow: 0px 0px 10px 5px #1d1313;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+header h1 {
+  position: relative;
+  color: #d2d2d2;
+  font-size: 10vw;
+  font-family: font01;
+  font-weight: lighter;
+  z-index: 2;
+}
+
+@media (max-width: 550px) {
+  header h1 {
+    margin-top: 20px;
+  }
+}
+
+header h2 {
+  position: relative;
+  color: #d2d2d2;
+  font-size: 4vw;
+  font-family: font02;
+  z-index: 2;
+}
+
+header .img01 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+header .img02 {
+  width: 15%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+@media (max-width: 550px) {
+  header .img02 {
+    top: 50%;
+  }
+}
+
+header .projeto {
+  width: 60%;
+  height: 65%;
+  position: absolute;
+  left: 200%;
+  top: 60%;
+  border-radius: 20px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 2;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+@media (max-width: 550px) {
+  header .projeto {
+    top: 50%;
+  }
+}
+
+header .projeto button {
+  border-color: #3d1c13;
+  color: #3d1c13;
+}
+
+header .projeto img {
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+}
+
+header nav {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 2;
+}
+
+header button {
+  max-width: 80px;
+  height: 30px;
+  border: 1px solid #d2d2d2;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  color: #d2d2d2;
+  background: none;
+  margin: 5px 5px 30px 5px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  padding: 5px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+header button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+header button:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+header p {
+  width: 100%;
+  position: absolute;
+  color: #d2d2d2;
+  font-family: font02;
+  font-size: 2vw;
+  bottom: 10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 2;
+}
+
+footer {
+  position: relative;
+  margin: 10px auto;
+}
+
+footer a img {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 5px;
+  width: 30px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border-radius: 5px;
+}
+
+footer a img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+footer a img:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+/*# sourceMappingURL=style.css.map */
