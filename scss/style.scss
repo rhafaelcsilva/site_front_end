@@ -47,9 +47,6 @@ header {
     font-family: font01;
     font-weight: lighter;
     z-index: 2;
-    @media (max-width: 550px) {
-      margin-top: 20px;
-    }
   }
 
   h2 {
@@ -79,8 +76,9 @@ header {
     transition: 0.5s;
     z-index: 2;
 
-    @media (max-width: 550px) {
-      top: 50%;
+    @media (max-width: 700px) {
+      top: 55%;
+      width: 10%;
     }
   }
 
@@ -96,8 +94,8 @@ header {
     z-index: 2;
     transition: 0.8s;
 
-    @media (max-width: 550px) {
-      top: 50%;
+    @media (max-width: 700px) {
+      top: 55%;
     }
 
     button {

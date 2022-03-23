@@ -56,12 +56,6 @@ header h1 {
   z-index: 2;
 }
 
-@media (max-width: 550px) {
-  header h1 {
-    margin-top: 20px;
-  }
-}
-
 header h2 {
   position: relative;
   color: #d2d2d2;
@@ -93,9 +87,10 @@ header .img02 {
   z-index: 2;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 700px) {
   header .img02 {
-    top: 50%;
+    top: 55%;
+    width: 10%;
   }
 }
 
@@ -114,9 +109,9 @@ header .projeto {
   transition: 0.8s;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 700px) {
   header .projeto {
-    top: 50%;
+    top: 55%;
   }
 }
 
